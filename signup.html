@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Evan Coulthurst | Sign Up</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+
+         <a class="navbar-brand" href="index.html">
+            Evan Coulthurst
+         </a>
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto">
+
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="signin.html">Sign In</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link active" href="signup.html">
+                     Sign Up
+                  </a>
+               </li>
+
+            </ul>
+
+         </div>
+      </div>
+   </nav>
+
+
+   <main class="container my-5">
+
+      <div class="row justify-content-center">
+
+         <section class="col-md-7 col-lg-6 form-card">
+
+            <h1>Create Account</h1>
+
+            <p>
+               Use the form below to create an account for this
+               demonstration website.
+            </p>
+
+            <p>
+               The form collects basic account information including your
+               name, email address, and password.
+            </p>
+
+            <p>
+               This page demonstrates the use of Bootstrap form controls and
+               HTML form validation attributes.
+            </p>
+
+
+            <form>
+
+               <div class="mb-3">
+
+                  <label for="name" class="form-label">
+
+                     Full Name
+
+                  </label>
+
+                  <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+
+               </div>
+
+
+               <div class="mb-3">
+
+                  <label for="email" class="form-label">
+
+                     Email
+
+                  </label>
+
+                  <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+
+               </div>
+
+
+               <div class="mb-3">
+
+                  <label for="password" class="form-label">
+
+                     Password
+
+                  </label>
+
+                  <input type="password" id="password" class="form-control" placeholder="Enter a password" required>
+
+               </div>
+
+
+               <div class="mb-3">
+
+                  <label for="confirmPassword" class="form-label">
+
+                     Confirm Password
+
+                  </label>
+
+                  <input type="password" id="confirmPassword" class="form-control" placeholder="Re-enter your password"
+                     required>
+
+               </div>
+
+
+               <div class="form-check mb-3">
+
+                  <input type="checkbox" id="agree" class="form-check-input" required>
+
+                  <label for="agree" class="form-check-label">
+
+                     I agree to the Terms and Conditions
+
+                  </label>
+
+               </div>
+
+
+               <button type="submit" class="btn btn-success">
+
+                  Sign Up
+
+               </button>
+
+            </form>
+
+
+            <p class="mt-4">
+               Already have an account?
+               <a href="signin.html">Sign in here.</a>
+            </p>
+
+         </section>
+
+      </div>
+
+   </main>
+
+
+   <footer class="bg-dark text-white text-center p-4 mt-5">
+
+      <p>&copy; 2026 Evan Coulthurst</p>
+
+      <nav>
+         <a href="terms.html" class="footer-link">
+            Terms and Conditions
+         </a>
+
+         <a href="privacy.html" class="footer-link">
+            Privacy Policy
+         </a>
+
+         <a href="cookies.html" class="footer-link">
+            Cookie Policy
+         </a>
+      </nav>
+
+   </footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+   </script>
+
+</body>
+
+</html>
